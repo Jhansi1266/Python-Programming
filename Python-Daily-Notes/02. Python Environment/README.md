@@ -2,28 +2,35 @@
 ## 1. Python versions
 Python has gone through three major version generations:
 ### i. Python 1
-Python 1.0 was the first official major release of Python, released in January 1994.
-It was Developed by Guido van Rossum.
-It established basic Python programming language.
-The first version of python is python 1.0.
-The last version of Python 2 is Python 1.6.
-It is obsolete and no longer supported.
-It is important mainly for Python history, not for modern development.
-
+       Python 1.0 was the first official major release of Python, released in January 1994.
+       It was Developed by Guido van Rossum.
+       It established basic Python programming language.
+       The first version of python is python 1.0.
+       The last version of Python 2 is Python 1.6.
+       It is obsolete and no longer supported.
+       It is important mainly for Python history, not for modern development.
 ### ii. Python 2
-Python 2.0 was the second major version of Python. It was released in October 2000.
-It was Developed by Guido van Rossum.
-The first version of python is python 2.0.
-The last version of Python 2 is Python 2.7.
-Python 2 was widely used for web development, automation, scripting, data processing, system administration, and software development, but it is now obsolete because official support ended in 2020.
-Python 2 is not used for new development because it reached End of Life in 2020 and is no longer officially supported. Python 3 replaced Python 2 and is the standard for modern Python development.
+       Python 2.0 was the second major version of Python. It was released in October 2000.
+       It was Developed by Guido van Rossum.
+       The first version of python is python 2.0.
+       The last version of Python 2 is Python 2.7.
+       Python 2 was widely used for web development, automation, scripting, data processing, system 
+       administration, and software development, but it is now obsolete because official support 
+       ended in 2020.
+       Python 2 is not used for new development because it reached End of Life in 2020 and is no 
+       longer officially supported. Python 3 replaced Python 2 and is the standard for modern 
+       Python development.
 ### iii. Python 3
-Python 3 is the modern major version of Python and the version used for current Python development.
-It was developed by Python community under the leadership of Guido van Rossum
-The first version is 3.0.
-The python presents version of python3 is python 3.14.6.
-Python 3 is a general-purpose programming language used for web development, data analysis, AI/ML, automation, scripting, API development, DevOps, scientific computing, and many other software applications.
-Python 3 was created to improve Python's language design and fix limitations in Python 2. It introduced changes that made it not fully backward-compatible with Python 2.
+       Python 3 is the modern major version of Python and the version used for current Python 
+       development.
+       It was developed by Python community under the leadership of Guido van Rossum
+       The first version is 3.0.
+       The python presents version of python3 is python 3.14.6.
+       Python 3 is a general-purpose programming language used for web development, data analysis,  
+       AI/ML, automation, scripting, API development, DevOps, scientific computing, and many other 
+       software applications.
+       Python 3 was created to improve Python's language design and fix limitations in Python 2. It 
+       introduced changes that made it not fully backward-compatible with Python 2.
 ## 2. Python Versions — Interview Questions & Answers
 ### i. What is the latest major version of Python?
 Python 3.14 is the latest major/feature release as of August 2026.
@@ -67,11 +74,11 @@ python -V
 Example:
 Python 3.14.6
 ### xviii. What does Python 3.14.6 mean?
-Python 3.14.6
-       │ │  │
-       │ │  └── Patch/Maintenance version
-       │ └───── Minor/Feature version
-       └─────── Major version
+       Python 3.14.6
+              │ │  │
+              │ │  └── Patch/Maintenance version
+              │ └───── Minor/Feature version
+              └─────── Major version
 ### xix. What does obsolete mean?
 Obsolete means old technology that has been replaced by newer technology and is no longer supported or recommended.
 ### xx. What is the difference between Python 1, Python 2, and Python 3?
