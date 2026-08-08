@@ -37,9 +37,24 @@ complex: 6+2i
 str:"Hello"
 ### 3.Boolean Type: 
 bool: Boolean data contains True or False values.
-list, tuple, range
+### 4. Sequance data:list, tuple.
+list: A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
+#### Example:
+     list1=[8,2.3,[-4,5],["apple","banana"]]
+     print(list1)
+#### output:
+     [8,2.3,[-4,5],["apple","banana"]]
+Tuple: A tuple is an ordered collection of data with elements separated by a comma and enclosed within parentheses. Tuples are immutable and can not be modified after creation.
+#### Example:
+     tuple1=(("parrot","sparrow"),("Lion","Tiger"))
+     print(tuple1)
+#### output
+     (("parrot","sparrow"),("Lion","Tiger"))
+### 5.Mapping Type – dict
+
+range
 Set Types – set, frozenset
-Mapping Type – dict
+### 5.Mapping Type – dict
 Binary Types – bytes, bytearray, memoryview
 None Type – NoneType
 
