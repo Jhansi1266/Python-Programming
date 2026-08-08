@@ -138,7 +138,7 @@ For example, you might need a package called requests.
        print(math.sqrt(25))
 #### output:
      5
-### x.IDLE(Integrated Development and Learning Environment)
+### x. IDLE(Integrated Development and Learning Environment)
 IDLE stands for Integrated Development and Learning Environment. It is a basic IDE included with Python that provides a code editor, interactive Python shell, and debugging features for developing Python programs.
 #### What can you do with IDLE?
      Write Python code
@@ -201,5 +201,6 @@ The Python extension adds Python-specific features such as running code, debuggi
                  ↓
        12. Run Python Program
           python filename.py
+## 4. 
 
        
