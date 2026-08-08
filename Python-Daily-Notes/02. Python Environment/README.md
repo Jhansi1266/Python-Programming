@@ -83,7 +83,123 @@ Python 3.14.6
 Obsolete means old technology that has been replaced by newer technology and is no longer supported or recommended.
 ### xx. What is the difference between Python 1, Python 2, and Python 3?
 Python 1 was the first major version of Python, Python 2 introduced significant improvements and was widely used for many years, and Python 3 was introduced as a major redesign with improved syntax, Unicode support, and modern language features. Python 1 and Python 2 are obsolete, while Python 3 is the modern Python series.
+## 3. Python Installation & Setup.
+### i. What is Python Installation?
+Python installation is the process of installing the Python interpreter and supporting tools required to develop and execute Python programs.
+### ii. Download Python
+Download Python 3.x from the official Python website.
+Python 3.14.6 is the modern version used for development.
+### iii. Install Python
+#### On Windows:
+       Run the Python installer.
+       Check Add Python.exe to PATH 
+       Click Install Now.
+       Complete the installation.
+### iv. Python Interpreter
+The Python interpreter reads and executes Python source code.
+### v. PATH
+PATH is an environment variable that allows the operating system to locate the Python executable from the command line.
+### vi. Verify python Installation
+#### Open Command Prompt and run:
+      python --version
+      or 
+      python -V
+#### Example Output:
+     python 3.x.x
+### vii. Interactive mode
+       Write Python directly and get immediate output
+       open Command promt and type:
+       print("Hello")
+       You immediately get:
+       Hello
+When is it useful?
+Mostly for quick testing and learning small pieces of code.
+### viii. pip-Installing Packages
+#### What is a package?
+A package is reusable code written by other developers that you can add to your Python project.
+For example, you might need a package called requests.
+##### You install it using:
+      pip install requests
+##### Then you can use it:
+      import requests
+##### Think:
+       pip
+        ↓
+       Downloads package
+        ↓
+       Installs package
+        ↓
+       You can use package in Python
+### ix. Standard Library
+       Useful modules already included with Python
+       math is part of Python's Standard Library.
+#### Example:
+       import math
+       print(math.sqrt(25))
+#### output:
+     5
+### x.IDLE(Integrated Development and Learning Environment)
+IDLE stands for Integrated Development and Learning Environment. It is a basic IDE included with Python that provides a code editor, interactive Python shell, and debugging features for developing Python programs.
+#### What can you do with IDLE?
+     Write Python code
+     Run Python programs
+     Debug programs
+     Create and edit .py files
+### xi. VS Code + Python Extension
+VS Code is a code editor.
+You can write your Python programs in it.
+#### Example:
+     hello.py
+#### inside the file:
+     print("Hello Python")
+The Python extension adds Python-specific features such as running code, debugging, code completion, and interpreter selection.
+### xii. What is .py?
+.py is the file extension used for Python source-code files.
+#### Example:
+       hello.py
+       calculator.py
+       student.py
+       app.py
+### xiii. python filename.py
+              Create hello.py
+                     ↓
+              Write Python code
+                     ↓
+              print("Hello World")
+                     ↓
+              Run:
+              python hello.py
+                     ↓
+              Python Interpreter executes it
+                     ↓
+              Hello World
+### xvi. complete flow
+       1. Download Python 3.x
+                 ↓
+       2. Install Python
+                 ↓
+       3. Add Python to PATH
+                 ↓
+       4. Python Interpreter
+                 ↓
+       5. Verify Python
+          python --version
+                 ↓
+       6. Interactive Mode
+          python → >>>
+                 ↓
+       7. pip
+          pip install package
+                 ↓
+       8. Standard Library
+                 ↓
+       9. IDLE
+                 ↓
+       10. VS Code + Python Extension
+                 ↓
+       11. Create .py file
+                 ↓
+       12. Run Python Program
+          python filename.py
 
-
-
-
+       
