@@ -65,3 +65,35 @@ Keywords are reserved words in Python that have a predefined meaning and cannot 
 | `raise`   | `return` | `True`     |
 | `try`     | `while`  | `with`     |
 | `yield`   |          |            |
+## 4. Python Identifiers:
+An identifier is a name given to variables, functions, classes, modules, or other objects in Python.
+### Example:
+    name = "Jhansi"
+    age = 22
+    
+    def calculate():
+        pass
+#### Here:
+        name → identifier
+        age → identifier
+        calculate → identifier
+### Rules for Identifiers
+    Can contain letters, digits, and _
+    Cannot start with a digit
+    Cannot contain spaces or special characters
+    Cannot be a Python keyword
+    Python identifiers are case-sensitive
+### valid identifiers
+    name
+    student_name
+    age2
+    _total
+### invalid identifiers
+    2name       # starts with digit
+    student name # space
+    student-name # hyphen
+    class       # keyword
+
+
+
+
