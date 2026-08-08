@@ -1,4 +1,4 @@
-# Python Environment
+# Python Environment & Setup
 ## 1. Python versions
 Python has gone through three major version generations:
 ### i. Python 1
