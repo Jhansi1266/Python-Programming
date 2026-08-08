@@ -1,3 +1,63 @@
+# variables, Constants, Datatypes, Typecasting, Input & output and Escape Sequences
+## 1. Variable
+A variable is like a container that holds data. Similar to how containers in a kitchen hold sugar, salt, etc., a variable holds a value in a Python program.
+Creating a variable means creating a name that refers to a value.
+### Example of creating variable:
+    name = "Jhansi"
+    age = 22
+### Here:
+    name     → variable
+    "Jhansi" → value
+    age      → variable
+    22       → value
+    =        → assignment operator
+## 2. Constants
+A constant is a value that should not be changed during program execution.
+In Python, constants are usually written in uppercase letters to indicate that their values should not be changed.
+### Example:
+    PI = 3.14
+    MAX_SIZE = 100
+## 3. Data Types:
+A data type specifies the type of value a variable holds. It helps Python determine what operations can be performed on that value.
+In Python, we can find the type of a value using the type() function.
+### Example:
+    a=1
+    print(type(a))
+    b="1"
+    print(type(b))
+### output:
+    <class 'int'> 
+    <class 'str'>
+### Python provides several built-in data types:
+### 1. Numeric Types:
+int: 3,-8,0
+float: 7.34, -7.0, 0.01
+complex: 6+2i
+### 2. Text data:
+str:"Hello"
+### 3.Boolean Type: 
+bool: Boolean data contains True or False values.
+list, tuple, range
+Set Types – set, frozenset
+Mapping Type – dict
+Binary Types – bytes, bytearray, memoryview
+None Type – NoneType
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Escape Sequences in Python
 
 An escape sequence is a special character combination beginning with a backslash (\) used to represent special characters inside a string.
