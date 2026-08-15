@@ -50,13 +50,19 @@ Tuple: A tuple is an ordered collection of data with elements separated by a com
      print(tuple1)
 #### output
      (("parrot","sparrow"),("Lion","Tiger"))
-### 5.Mapping Type – dict
+Range: A range is an ordered sequence of numbers generated using the range() function. It is commonly used for iteration in loops. Range objects are immutable and cannot be modified after creation.
+#### Example:
+     range1 = range(1, 6)
+     print(range1)
+     print(list(range1))
+#### Output:
+     range(1, 6)
+     [1, 2, 3, 4, 5]
 
-range
-Set Types – set, frozenset
+### Set Types – set, frozenset
 ### 5.Mapping Type – dict
-Binary Types – bytes, bytearray, memoryview
-None Type – NoneType
+### Binary Types – bytes, bytearray, memoryview
+### None Type – NoneType
 
 
 
